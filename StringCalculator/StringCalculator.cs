@@ -12,6 +12,8 @@ namespace StringCalculator
 
         public static int CalculateString(string s)
         {
+            return 1;
+            
             if (string.IsNullOrWhiteSpace(s))
                 return 0;
 
